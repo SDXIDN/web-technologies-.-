@@ -1,0 +1,84 @@
+div {
+    background-color: rgb(255, 165, 0);
+    width: 500px;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.firstLevel > li {
+    background-color: rgb(103, 158, 128);
+    padding: 0 20px 0  50px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.secondLevel > li {
+    font-size: 18px;
+    font-style: italic;
+    background-color: rgb(153, 180, 102);
+    margin-bottom: 10px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+
+span {
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.firstLevel > li > span {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(199, 124, 106);
+    margin-bottom: 10px;
+}
+
+.secondLevel > li > span {
+    background-color: rgb(218, 106, 32);
+}
+
+.prepare {
+    background-image: url("assets/icon\ rules.png"); 
+}
+.rest {
+    background-image: url(""); 
+}
+
+.route { 
+    background-image: url("assets/icon_map-removebg-preview.png");
+}
+.ticket {
+    background-image: url("assets/icon_ticket_vector-removebg-preview.png");
+}
+.hotel {
+    background-image: url("assets/icon_Bed-removebg-preview.png");
+}
+.car {
+    background-image: url("assets/Carro_ícone_Vector_PNG___Clipart_Do_Carro_Png__Carro__ícones_De_Carro_Imagem_PNG_e_Vetor_Para_Download_Gratuito-removebg-preview.png"); 
+}
+
+.bar { 
+    background-image: url("assets/icon_coctail_bar_-removebg-preview.png"); 
+}
+.casino { 
+    background-image: url("assets/icon_bones-removebg-preview.png"); 
+}
+.museum { 
+    background-image: url("assets/icon_sculpture_by_Freepik-removebg-preview.png"); 
+}
+.festival {
+    background-image: url("assets/icon_fun-removebg-preview.png");
+}

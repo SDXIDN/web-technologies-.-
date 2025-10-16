@@ -2,7 +2,8 @@
 <html lang="uk">
     <head>
         <meta charset="UTF-8">
-        <title>Student Form</title>
+        <title>Анкета студента</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body align="center">
 
@@ -44,7 +45,7 @@
             <label><input type="radio" name="gender" value="male"> Man</label>
             <label><input type="radio" name="gender" value="female"> Woman</label>
             <label><input type="radio" name="gender" value="other"> Other</label>
-            <label><input type="radio" name="gender" value="helicopter">Helicopter</input></label><br><br>
+            <label><input type="radio" name="gender" value="croissant">croissant</input></label><br><br>
 
             <p>Choose your favorite genre:</p>
             <label><input type="checkbox" name="subject" value="math"> Fantasy</label>
@@ -54,8 +55,8 @@
 
             <p>Choose your course:</p>
             <select name="year">
-                <option value="1">1 course</option>
-                <option value="2" selected>2 course</option>
+                <option value="1"selected>1 course</option>
+                <option value="2">2 course</option>
                 <option value="3">3 course</option>
                 <option value="4">4 course</option>
                 <option value="5">5 course</option>
@@ -85,7 +86,7 @@
             </select><br><br>
 
             <p>Where would you like to work?:</p>
-            <input list="professions1" name="profession">
+            <input list="professions1" name="profession" placeholder="Choose">
             <datalist id="professions1">
                 <option value="Software Developer">
                 <option value="Game Developer">
@@ -101,7 +102,7 @@
         <fieldset>
         <legend>Additionals:</legend>
         <label for="comment1">Comment:</label><br>
-        <textarea id="comment1" name="comment" rows="4" cols="50" placeholder="Hello World!"></textarea>
+        <textarea id="comment1" name="comment" rows="4" cols="50" placeholder="Why not?"></textarea>
         </fieldset>
 
         <br>
@@ -154,7 +155,7 @@
             <label><input type="radio" name="gender" value="male"> Man</label>
             <label><input type="radio" name="gender" value="female"> Woman</label>
             <label><input type="radio" name="gender" value="other" checked> Other</label>
-            <label><input type="radio" name="gender" value="helicopter">Helicopter</input></label><br><br>
+            <label><input type="radio" name="gender" value="croissant">croissant</input></label><br><br>
 
             <p>Choose your favorite genre:</p>
             <label><input type="checkbox" name="subject" value="math"> Fantasy</label>
@@ -164,8 +165,8 @@
 
             <p>Choose your course:</p>
             <select name="year">
-                <option value="1">1 course</option>
-                <option value="2" selected>2 course</option>
+                <option value="1"selected>1 course</option>
+                <option value="2">2 course</option>
                 <option value="3">3 course</option>
                 <option value="4">4 course</option>
                 <option value="5">5 course</option>
@@ -195,7 +196,7 @@
             </select><br><br>
 
             <p>Where would you like to work?:</p>
-            <input list="professions1" name="profession">
+            <input list="professions1" name="profession" placeholder="Choose">
             <datalist id="professions1">
                 <option value="Software Developer">
                 <option value="Game Developer">
@@ -211,7 +212,7 @@
         <fieldset>
         <legend>Additionals:</legend>
         <label for="comment1">Comment:</label><br>
-        <textarea id="comment1" name="comment" rows="4" cols="50" placeholder="Hello World!"></textarea>
+        <textarea id="comment1" name="comment" rows="4" cols="50" placeholder="Why not?"></textarea>
         </fieldset>
 
         <br>
@@ -225,7 +226,7 @@
     </form>
 
     <br><br>
-    <p><a href="../index.html">Back to the min page</a></p>
+    <p><a href="../index.html">Повернутись на головну</a></p>
 
     </body>
 </html>
