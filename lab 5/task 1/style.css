@@ -51,34 +51,35 @@ span {
 }
 
 .prepare {
-    background-image: url("assets/icon\ rules.png"); 
+    background-image: url("assets/rule.png"); 
 }
+
 .rest {
-    background-image: url(""); 
+    background-image: url("assets/rule.png"); 
 }
 
 .route { 
-    background-image: url("assets/icon_map-removebg-preview.png");
+    background-image: url("assets/ad_units.png");
 }
 .ticket {
-    background-image: url("assets/icon_ticket_vector-removebg-preview.png");
+    background-image: url("assets/airplane_ticket.png");
 }
 .hotel {
-    background-image: url("assets/icon_Bed-removebg-preview.png");
+    background-image: url("assets/hotel.png");
 }
 .car {
-    background-image: url("assets/Carro_ícone_Vector_PNG___Clipart_Do_Carro_Png__Carro__ícones_De_Carro_Imagem_PNG_e_Vetor_Para_Download_Gratuito-removebg-preview.png"); 
+    background-image: url("assets/car_rental.png"); 
 }
 
 .bar { 
-    background-image: url("assets/icon_coctail_bar_-removebg-preview.png"); 
+    background-image: url("assets/local_bar.png"); 
 }
 .casino { 
-    background-image: url("assets/icon_bones-removebg-preview.png"); 
+    background-image: url("assets/casino.png"); 
 }
 .museum { 
-    background-image: url("assets/icon_sculpture_by_Freepik-removebg-preview.png"); 
+    background-image: url("assets/museum.png"); 
 }
 .festival {
-    background-image: url("assets/icon_fun-removebg-preview.png");
+    background-image: url("assets/festival.png");
 }

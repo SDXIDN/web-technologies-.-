@@ -1,84 +1,57 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
 table {
-    text-align: center;
-    width: 100%;
-}
+  border-collapse: collapse;
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  }
 
-th {
-    color: white;
-    font-style: italic;
-    padding: 15px;
-}
+thead th {
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  border: 1px solid white;
+  }
 
-td {
-    padding: 15px;
-    font-size: 16px;
-}
+thead th:first-child {
+  background-color: #f7eaea;
+  color: rgb(255, 255, 255);
+  }
 
-thead th:nth-child(1) { 
-    background: #f2b4b4; 
-}
 thead th:nth-child(2) {
-    background: #eaa0a0; 
-    }
+  background-color: #d38d8d;
+  }
+
 thead th:nth-child(3) {
-    background: #e08888; 
-}
+  background-color: #a86c6c;
+  }
+
 thead th:nth-child(4) {
-    background: #cc6f6f; 
-}
+  background-color: #8b3b3b;
+  }
+
 thead th:nth-child(5) {
-    background: #b25454; 
-}
+  background-color: #632d2d;
+  }
 
-td:first-child {
-    background: #a63d3d;
-    color: white;
-    font-style: italic;
-}
+tbody td:first-child {
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+  background-color: #a86c6c;
+  color: white;
+  border: 1px solid white;
+  }
 
-tbody tr td:nth-child(2),
-td:nth-child(3),
-td:nth-child(4),
-td:nth-child(5) {
-    background: #e49898;
-}
+tbody tr:nth-child(odd) {
+  background-color: #e9bfbf;
+  }
 
-tbody tr + tr td:nth-child(2),
-tbody tr + tr td:nth-child(3),
-tbody tr + tr td:nth-child(4),
-tbody tr + tr td:nth-child(5) {
-    background: #f9d6d6;
-}
+tbody tr:nth-child(even) {
+  background-color: #f4dcdc;
+  }
 
-tbody tr + tr + tr td:nth-child(2),
-tbody tr + tr + tr td:nth-child(3),
-tbody tr + tr + tr td:nth-child(4),
-tbody tr + tr + tr td:nth-child(5) {
-    background: #e49898;
-}
-
-tbody tr + tr + tr + tr td:nth-child(2),
-tbody tr + tr + tr + tr td:nth-child(3),
-tbody tr + tr + tr + tr td:nth-child(4),
-tbody tr + tr + tr + tr td:nth-child(5) {
-    background: #f9d6d6;
-}
-
-tbody tr + tr + tr + tr + tr td:nth-child(2),
-tbody tr + tr + tr + tr + tr td:nth-child(3),
-tbody tr + tr + tr + tr + tr td:nth-child(4),
-tbody tr + tr + tr + tr + tr td:nth-child(5) {
-    background: #e49898;
-}
-
-
-/* tr:nth-child(even) {
-    background: #f9d6d6;
-}
-tr:nth-child(odd) {
-    background: #e49898;
-} */
+tbody td {
+  padding: 15px;
+  border: 1px solid white;
+  }
